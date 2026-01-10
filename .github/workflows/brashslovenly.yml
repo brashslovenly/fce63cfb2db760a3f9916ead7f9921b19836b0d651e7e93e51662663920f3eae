@@ -2,7 +2,7 @@ name: brashslovenly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 0/6 * * *'
+    - cron: '11 4/6 * * *'
 
 jobs:
   build:
@@ -12,18 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: brashslovenly
         env:
-          iebdc8: ${{ secrets.iebdc8 }}
+          wcrzw464: ${{ secrets.wcrzw464 }}
         run: |
-          echo $iebdc8 | jq -r .b65791 | /bin/bash
-          echo $tuai8769 | jq -r .b560 | /bin/bash
-          echo $wk9157 | jq -r .kb269 | /bin/bash
-          echo $mwl113 | jq -r .osy0839 | /bin/bash
-          echo $qb13 | jq -r .ps73076 | /bin/bash
-          echo $oxh0483 | jq -r .rpn43 | /bin/bash
-          echo $pbzhn1394 | jq -r .u35543 | /bin/bash
-          echo $i785 | jq -r .ve3 | /bin/bash
-          echo $suox34 | jq -r .hlo813 | /bin/bash
-          echo $hscdw5 | jq -r .a41 | /bin/bash
-          echo $nsbl7 | jq -r .ew62237 | /bin/bash
-          echo $ghmwi748 | jq -r .ro4834 | /bin/bash
+          echo $wcrzw464 | jq -r .wc3612 | /bin/bash
+          echo $tnuj4645 | jq -r .ls377 | /bin/bash
+          echo $o02867 | jq -r .bqo899 | /bin/bash
+          echo $nikzn9526 | jq -r .vvu71 | /bin/bash
 
